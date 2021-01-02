@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/12530f3a2e.js" crossorigin="anonymous"></script>
+
+    <!-- javascript -->
+    <script src="./js/index.js" defer></script>
+    <script src="./js/date.js" defer></script>
+    <script src="./js/todo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <div class="clear">
+                <i class="fas fa-sync" aria-hidden="true"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+
+        <!-- content -->
+        <div class="content">
+            <!-- list -->
+            <ul id="list">
+                <!-- <li class="item">
+                    <i class="far fa-circle"></i>              //  checked icon :  <i class="far fa-check-circle"></i>
+                    <p class="text">coffee</p>
+                    <i class="fas fa-trash-alt delete"></i>
+                </li> -->
+            </ul>
+            <div class="add-item">
+                <i class="fas fa-plus" id="fa-plus"></i>
+                <input type="text" id="input" placeholder="Add a to-do">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
